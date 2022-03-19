@@ -13,3 +13,22 @@ https://code.visualstudio.com/docs/datascience/jupyter-notebooks
 
 deepnote tabscoobs:
 https://deepnote.com/@Tabscoob-AI
+
+
+### Create your project conda env
+https://code.visualstudio.com/docs/python/environments
+
+
+```{python}
+conda create -n tabscoob_DE_101 python=3.9 ipykernel=6.9 jupyterlab=1.2 pandas=1.4
+```
+
+Activate environment:
+```{python}
+conda activate tabscoob_DE_101
+```
+
+Delete environment
+```{python}
+conda env remove -n tabscoob_DE_101
+```
