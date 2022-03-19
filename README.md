@@ -32,3 +32,9 @@ Delete environment
 ```{python}
 conda env remove -n tabscoob_DE_101
 ```
+
+
+Crear branch para trabajo
+```{python}
+git checkout -b de_{tu nombre} main
+```
